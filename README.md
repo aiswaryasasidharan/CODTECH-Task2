@@ -18,12 +18,7 @@ Technology used : HTML5,CSS3,JAVASCRIPT
 
 Output :![Uploading Capturea.PNG…]()
 
-
 ![Uploading Capturea.PNG…]()
 
-
-
 ![Uploading CaptureJ.PNG…]()
-
-
 ![Uploading CaptureFD.PNG…]()
