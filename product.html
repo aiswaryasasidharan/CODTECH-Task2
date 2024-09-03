@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product 1 - My E-Commerce Store</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<style type="text/css">
+    header {
+    background-color: #404056;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #404056;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+main{
+   margin-top: 20px;
+   text-align: center;
+    padding-bottom: 80px;
+
+}
+</style>
+<body>
+    <header>
+        <h1>RASI JEWELRY</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="product.html">product</a></li>
+                <li><a href="CheckOut.html">Check Out</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="product-detail">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3vWjiM6l03yOVerAtFRrEg2Dp_qaSElwwzQ&s" alt="Product 1">
+            <div class="product-info">
+                <h2>Rose Gold</h2>
+                <p>$1029.99</p>
+                <p>Buy latest gold jewelry designs online.</p>
+                <button onclick="addToCart(1)">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Rasi Jewelry</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
